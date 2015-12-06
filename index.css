@@ -1,0 +1,210 @@
+
+#cssmenu {
+  background: #428bca;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+#cssmenu ul {
+  list-style: none;
+  margin: 0;
+  line-height: 1;
+  display: block;
+  zoom: 1;
+  border-style: solid;
+  border-color: #3A7BB3;
+}
+#cssmenu a:hover {
+  letter-spacing: 5px;
+}
+#cssmenu ul li {
+  display: inline-block;
+  text-align: center;
+  width: 24%;
+}
+#cssmenu ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 15px 25px;
+  font-family: 'Open sans', sans-serif;
+  text-shadow: 3px 3px #3A7BB3;
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 1px;
+  transition: all .1s ease-in;
+  position: relative;
+}
+.big {
+    font-size: 50px;
+}
+
+.small {
+    font-size: 40px;
+}
+
+header {
+    text-align: center;
+    color: #fff;
+    background: #96E7FF;
+}
+
+header .container {
+    padding-top: 10em;
+    padding-bottom: 3em;
+}
+
+
+header .intro-text .name {
+    display: block;
+    font-family: 'Open sans', sans-serif;
+    text-shadow: 4px 4px #3A7BB3;
+    font-size: 6em;
+    font-weight: 700;
+}
+
+header .intro-text .skills {
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.5em;
+    text-shadow: 1px 1px #428bca;
+    font-weight: 5000;
+}
+
+hr {
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#428bca;
+    border: 0 none;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+section h2 {
+  display: block;
+  font-family: 'Open sans', sans-serif;
+  text-shadow: 5px 5px #428bca;
+  font-size: 6em;
+  font-weight: 700;
+}
+
+section {
+  text-align: center;
+  color: #fff;
+  background: #96E7FF;
+  height: 30em;
+}
+#portfolio {
+  background: #fff;
+  height: 20em
+}
+#portfolio h2{
+  color: #428bca;
+  text-shadow: none;
+}
+
+#other {
+  background-color: #428bca
+}
+
+#other h2 {
+      text-shadow: 4px 4px #3A7BB3;
+}
+
+#other p {
+      margin-top: 5em;
+      text-align: left;
+}
+
+.circle-icon {
+    background: #428bca;
+    font-size: 5em;
+    padding: auto;
+    width: 1.5em;
+    height: 1.5em;
+    color: #fff;
+    border-radius: 50%;
+    margin-top: 0.34em;
+    line-height: 100px;
+    text-shadow: 5px 10px #3A7BB3;
+    transition: background .3s, text-shadow .2s;
+}
+
+#portfolio .circle-icon:hover {
+  background: #3A7BB3;
+  text-shadow: 5px 15px #326999;
+}
+.form-style-6{
+    font: 95% Arial, Helvetica, sans-serif;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 16px;
+    background: #fff;
+}
+.form-style-6 h1{
+    background: #428bca;
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin: -16px -16px 16px -16px;
+}
+.form-style-6 input[type="text"],
+.form-style-6 input[type="date"],
+.form-style-6 input[type="datetime"],
+.form-style-6 input[type="email"],
+.form-style-6 input[type="number"],
+.form-style-6 input[type="search"],
+.form-style-6 input[type="time"],
+.form-style-6 input[type="url"],
+.form-style-6 textarea,
+.form-style-6 select
+{
+    outline: none;
+    box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    padding: 3%;
+    color: #555;
+    font: 95% 'Open sans', Helvetica, sans-serif;
+}
+.form-style-6 input[type="text"]:focus,
+.form-style-6 input[type="date"]:focus,
+.form-style-6 input[type="datetime"]:focus,
+.form-style-6 input[type="email"]:focus,
+.form-style-6 input[type="number"]:focus,
+.form-style-6 input[type="search"]:focus,
+.form-style-6 input[type="time"]:focus,
+.form-style-6 input[type="url"]:focus,
+.form-style-6 textarea:focus,
+.form-style-6 select:focus
+{
+    box-shadow: 0 0 5px #326999;
+    padding: 3%;
+    border: 1px solid #326999;
+}
+
+.form-style-6 input[type="submit"],
+.form-style-6 input[type="button"]{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    padding: 3%;
+    background: #326999;
+    border-bottom: 2px solid #428bca;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    color: #fff;
+}
+.form-style-6 input[type="submit"]:hover,
+.form-style-6 input[type="button"]:hover{
+    background: #428bca;
+}
+
+#test  {
+  height: 40em;
+}
